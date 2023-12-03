@@ -1,0 +1,17 @@
+[package]
+name = "aoc03"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+burn = { version = "0.11.1", features = [
+    "ndarray",
+    "wgpu",
+], default-features = false }
+itertools = "*"
+# nalgebra = "*"
+
+[dev-dependencies]
+test-case = "*"
